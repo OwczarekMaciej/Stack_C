@@ -15,5 +15,6 @@ void destroy(Stack* s);
 void push(Stack* s, int element);
 int pop(Stack* s);
 bool isEmpty(const Stack* s);
+void alloc_check(Stack *s);
 
 #endif
